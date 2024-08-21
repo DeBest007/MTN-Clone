@@ -1,0 +1,238 @@
+#sliderImg{
+    width: 100%;
+    height: 100%;
+    animation: animate 16s ease-in-out infinite;
+ }
+/* .slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: animate 50s ease-in-out infinite;
+    transition: 3s ease-in-out;
+    background-size: cover;
+ }
+ 
+ @keyframes animate{
+   0%, 100%{
+    background-image: url(https://www.mtn.ng/wp-content/uploads/2023/08/mpulse3.png);
+   }
+   25%{
+    background-image: url(https://www.mtn.ng/wp-content/uploads/2023/09/50-bonus-web-banner-mymtnapp.jpeg);
+   }
+   50%{
+    background-image: url(https://www.mtn.ng/wp-content/uploads/2023/07/MTN5G-banner.jpg);
+   }
+  75%{
+    background-image: url(https://www.mtn.ng/wp-content/uploads/2023/07/5g_web_banner.jpg);
+   }
+  } */
+  /* .mpulse {
+    animation: zoom 50s ease-in-out infinite;
+  }
+  @keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    15%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+} */
+/* 
+
+} */
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.swiper-pagination{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3 )); 
+    margin-top: 700px;
+    width: 600px;
+    padding-right: 600px;
+    
+    }
+ .card{
+    margin-top: 20px;    
+    margin-bottom: 0;    
+    padding-bottom: 32px;    
+    padding-right: 48px;    
+    padding-left: 32px;    
+    padding-top: 32px;
+}
+.overlay .content{
+    display: none;
+}
+.overlay .first:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+.overlay .second:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+.overlay .third:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+.overlay .fourth:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+.overlay .fifth:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+.overlay .sixth:hover ~ .content{
+    display: block;
+    position: absolute;
+    transition: -5s ease-in-out;
+    background-color: #fff;
+}
+
+.classlistone::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 11%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+.classlisttwo::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 28%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+.classlistthree::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 46%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+.classlistfour::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 64%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+.classlistfive::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 79%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+
+.classlistsix::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 94%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+.privacy::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 29%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+
+.terms::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 85%;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    transform: translateX(-50%);
+}
+
+.classlistone:hover::before{
+    width: 100px;
+    
+}
+.classlisttwo:hover::before{
+   
+    width: 90px;
+   
+}
+.classlistthree:hover::before{
+   
+    width: 100px;
+   
+}
+.classlistfour:hover::before{
+   
+    width: 76px;
+  
+}
+.classlistfive:hover::before{
+  
+    width: 85px;
+
+}
+
+.classlistsix:hover::before{
+   
+    width: 76px;
+   
+}
+.privacy:hover::before{
+  
+    width: 220px;
+   
+}
+
+.terms:hover::before{
+   
+    width: 120px;
+  
+}
+
